@@ -2,7 +2,7 @@ var para = document.createElement("p");
 var node = document.createTextNode("This is new para.");
 para.appendChild(node);
 
-var el = document.getElementsByClassName("login-box")
+var el = document.getElementsByClassName("login-box-msg")
 el[0].appendChild(para);
 var str= '<p>This</p>';
 console.log(document.getElementsByClassName("login-box"));
