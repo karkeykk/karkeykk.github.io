@@ -6,7 +6,7 @@ var el = document.getElementsByClassName("login-box")
 el[0].appendChild(para);
 var str= '<p>This</p>';
 console.log(document.getElementsByClassName("login-box"));
-el[0].insertAdjacentHTMl('afterEnd',str);
+el[0].insertAdjacentHTMl("afterEnd","<p>This</p>");
 
 
 
