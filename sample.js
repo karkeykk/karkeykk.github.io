@@ -4,9 +4,9 @@ para.appendChild(node);
 
 var el = document.getElementsByClassName("login-box-msg")
 el[0].appendChild(para);
-var str= '<p>This</p>';
-console.log(document.getElementsByClassName("login-box"));
-el[0].insertAdjacentHTML("beforeEnd","<p>This</p>");
+var str= "<p>This</p>";
+console.log("hiiiii");
+el[0].insertAdjacentHTML("beforeEnd",str);
 
 
 
